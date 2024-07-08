@@ -1,12 +1,15 @@
-create table user (
-  id int unsigned primary key auto_increment not null,
-  email varchar(255) not null unique,
-  password varchar(255) not null
+create table Boys (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  Boy_name varchar(25) not null
 );
 
-create table item (
-  id int unsigned primary key auto_increment not null,
-  title varchar(255) not null,
-  user_id int unsigned not null,
-  foreign key(user_id) references user(id)
+create table Mixtes (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  Mixte_name varchar(25) not null
 );
+
+create table Girls (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  Girl_name varchar(25) not null
+);
+

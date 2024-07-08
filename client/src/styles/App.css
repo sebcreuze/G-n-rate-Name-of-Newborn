@@ -1,0 +1,81 @@
+.page-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.page-container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  margin-bottom: 5rem;
+}
+
+.symbol-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.symbol-container p,
+h2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.symbol-container h2 {
+  font-size: 36px;
+  margin-bottom: 8rem;
+}
+
+.symbol-container p {
+  font-size: 32px;
+}
+
+.boys img {
+  width: 500px;
+  height: 500px;
+  background-color: #81cdff;
+  border-radius: 300px;
+  margin-bottom: 2rem;
+}
+.girls img {
+  width: 500px;
+  height: 500px;
+  background-color: #ff84b4;
+  border-radius: 300px;
+  margin-bottom: 2rem;
+}
+.mixtes img {
+  width: 418px;
+  height: 418px;
+  background-color: #95ff99;
+  border-radius: 300px;
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.boys-button,
+.mixtes-button,
+.girls-button {
+  background: none;
+  border: none;
+}
+
+.girls-button:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.mixtes-button:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.boys-button:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}

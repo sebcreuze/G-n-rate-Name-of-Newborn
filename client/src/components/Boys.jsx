@@ -61,7 +61,7 @@ function Boys() {
       <button className="boys-button" onClick={handleClickImage} type="button">
         <img src={boys} alt="Symbol of gender boys" />
       </button>
-      <h2>Prénom suivant</h2>
+      <h2>Hello my name is</h2>
       {renderContent()}
     </div>
   );
